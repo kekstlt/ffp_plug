@@ -1,0 +1,10 @@
+Package: nano
+Architecture: arm
+Priority: optional
+Section: editor
+Version: 2.2.6-1
+Maintainer: Mark Donszelmann <mark@donszelmann.com>
+Source: http://www.nano-editor.org/dist/v2.2/nano-2.2.6.tar.gz
+Description: A pico like editor
+Depends: ncurses
+Conflicts: 

@@ -1,0 +1,11 @@
+Package: rcs
+Architecture: arm
+Priority: optional
+Section: misc
+Version: 5.7-2
+Maintainer: NSLU2 Linux <nslu2-linux@yahoogroups.com>
+Source: http://www.cs.purdue.edu/homes/trinkle/RCS/rcs-5.7.tar.Z
+Description: The Revision Control System (RCS) manages multiple revisions of files.
+Depends: 
+Suggests: 
+Conflicts: 

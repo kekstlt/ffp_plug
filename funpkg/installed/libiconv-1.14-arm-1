@@ -1,0 +1,41 @@
+# Package name: libiconv-1.14-arm-1
+# Package file: arm/packages/libiconv-1.14-arm-1.txz
+# Compressed size: 513 KiB
+# Uncompressed size: 1961 KiB
+# Description:
+#   libiconv - character set conversion library
+#   
+#   This library provides an iconv() implementation.
+#   
+#   Homepage: http://www.gnu.org/software/libiconv/
+ffp/
+ffp/bin/
+ffp/bin/iconv
+ffp/include/
+ffp/include/iconv.h
+ffp/include/libcharset.h
+ffp/include/localcharset.h
+ffp/lib/
+ffp/lib/charset.alias
+ffp/lib/libcharset.a
+ffp/lib/libcharset.la
+ffp/lib/libcharset.so
+ffp/lib/libcharset.so.1
+ffp/lib/libcharset.so.1.0.0
+ffp/lib/libiconv.la
+ffp/lib/libiconv.so
+ffp/lib/libiconv.so.2
+ffp/lib/libiconv.so.2.5.1
+ffp/lib/preloadable_libiconv.so
+ffp/share/
+ffp/share/doc/
+ffp/share/doc/libiconv-1.14/
+ffp/share/doc/libiconv-1.14/iconv.1.html
+ffp/share/doc/libiconv-1.14/iconv.3.html
+ffp/share/doc/libiconv-1.14/iconv_close.3.html
+ffp/share/doc/libiconv-1.14/iconv_open.3.html
+ffp/share/doc/libiconv-1.14/iconv_open_into.3.html
+ffp/share/doc/libiconv-1.14/iconvctl.3.html
+ffp/share/man/
+ffp/share/man/man1/
+ffp/share/man/man1/iconv.1.gz

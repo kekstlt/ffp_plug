@@ -1,0 +1,11 @@
+Package: git
+Architecture: arm
+Priority: optional
+Section: net
+Version: 1.8.4.2-1
+Maintainer: NSLU2 Linux <nslu2-linux@yahoogroups.com>
+Source: http://git-core.googlecode.com/files/git-1.8.4.2.tar.gz
+Description: GIT is a directory tree content manager that can be used for distributed revision control.
+Depends: zlib, openssl, libcurl, diffutils, rcs, expat
+Suggests: git-manpages
+Conflicts: 

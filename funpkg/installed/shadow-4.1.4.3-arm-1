@@ -1,0 +1,101 @@
+# Package name: shadow-4.1.4.3-arm-1
+# Package file: arm/packages/shadow-4.1.4.3-arm-1.txz
+# Compressed size: 330 KiB
+# Uncompressed size: 1612 KiB
+# Description:
+#   shadow - shadow password suite
+#   
+#   The Shadow package contains programs for handling passwords in a
+#   secure way.
+#   
+#   Homepage: http://pkg-shadow.alioth.debian.org/
+#   
+ffp/
+ffp/bin/
+ffp/bin/chage
+ffp/bin/chfn
+ffp/bin/chsh
+ffp/bin/expiry
+ffp/bin/faillog
+ffp/bin/gpasswd
+ffp/bin/groups
+ffp/bin/lastlog
+ffp/bin/login
+ffp/bin/newgrp
+ffp/bin/passwd
+ffp/bin/sg
+ffp/bin/su
+ffp/etc/
+ffp/etc/default/
+ffp/etc/default/useradd
+ffp/etc/limits
+ffp/etc/login.access
+ffp/etc/login.defs
+ffp/sbin/
+ffp/sbin/chgpasswd
+ffp/sbin/chpasswd
+ffp/sbin/groupadd
+ffp/sbin/groupdel
+ffp/sbin/groupmems
+ffp/sbin/groupmod
+ffp/sbin/grpck
+ffp/sbin/grpconv
+ffp/sbin/grpunconv
+ffp/sbin/logoutd
+ffp/sbin/newusers
+ffp/sbin/nologin
+ffp/sbin/pwck
+ffp/sbin/pwconv
+ffp/sbin/pwunconv
+ffp/sbin/useradd
+ffp/sbin/userdel
+ffp/sbin/usermod
+ffp/sbin/vigr
+ffp/sbin/vipw
+ffp/share/
+ffp/share/man/
+ffp/share/man/man1/
+ffp/share/man/man1/chage.1.gz
+ffp/share/man/man1/chfn.1.gz
+ffp/share/man/man1/chsh.1.gz
+ffp/share/man/man1/expiry.1.gz
+ffp/share/man/man1/gpasswd.1.gz
+ffp/share/man/man1/groups.1.gz
+ffp/share/man/man1/login.1.gz
+ffp/share/man/man1/newgrp.1.gz
+ffp/share/man/man1/passwd.1.gz
+ffp/share/man/man1/sg.1.gz
+ffp/share/man/man1/su.1.gz
+ffp/share/man/man5/
+ffp/share/man/man5/faillog.5.gz
+ffp/share/man/man5/gshadow.5.gz
+ffp/share/man/man5/limits.5.gz
+ffp/share/man/man5/login.access.5.gz
+ffp/share/man/man5/login.defs.5.gz
+ffp/share/man/man5/passwd.5.gz
+ffp/share/man/man5/porttime.5.gz
+ffp/share/man/man5/shadow.5.gz
+ffp/share/man/man5/suauth.5.gz
+ffp/share/man/man8/
+ffp/share/man/man8/chgpasswd.8.gz
+ffp/share/man/man8/chpasswd.8.gz
+ffp/share/man/man8/faillog.8.gz
+ffp/share/man/man8/groupadd.8.gz
+ffp/share/man/man8/groupdel.8.gz
+ffp/share/man/man8/groupmems.8.gz
+ffp/share/man/man8/groupmod.8.gz
+ffp/share/man/man8/grpck.8.gz
+ffp/share/man/man8/grpconv.8.gz
+ffp/share/man/man8/grpunconv.8.gz
+ffp/share/man/man8/lastlog.8.gz
+ffp/share/man/man8/logoutd.8.gz
+ffp/share/man/man8/newusers.8.gz
+ffp/share/man/man8/nologin.8.gz
+ffp/share/man/man8/pwck.8.gz
+ffp/share/man/man8/pwconv.8.gz
+ffp/share/man/man8/pwunconv.8.gz
+ffp/share/man/man8/useradd.8.gz
+ffp/share/man/man8/userdel.8.gz
+ffp/share/man/man8/usermod.8.gz
+ffp/share/man/man8/vigr.8.gz
+ffp/share/man/man8/vipw.8.gz

@@ -1,0 +1,28 @@
+# Package name: bash-4.1.011-arm-1
+# Package file: arm/packages/bash-4.1.011-arm-1.txz
+# Compressed size: 412 KiB
+# Uncompressed size: 765 KiB
+# Description:
+#   bash - GNU Bourne-Again SHell
+#   
+#   Bash is an sh-compatible shell that incorporates useful features from
+#   the Korn shell (ksh) and C shell (csh). It is intended to conform to
+#   the IEEE POSIX P1003.2/ISO 9945.2 Shell and Tools standard. It offers
+#   functional improvements over sh for both programming and interactive
+#   use. In addition, most sh scripts can be run by Bash without
+#   modification.
+#   
+#   The manual is available at http://www.gnu.org/software/bash/manual/
+#   
+#   Homepage: http://www.gnu.org/software/bash/
+#   
+ffp/
+ffp/bin/
+ffp/bin/bash
+ffp/bin/sh
+ffp/share/
+ffp/share/info/
+ffp/share/info/bash.info.gz
+ffp/share/man/
+ffp/share/man/man1/
+ffp/share/man/man1/bash.1.gz

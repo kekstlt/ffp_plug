@@ -1,0 +1,28 @@
+# Package name: dialog-1.1_20110118-arm-1
+# Package file: arm/packages/dialog-1.1_20110118-arm-1.txz
+# Compressed size: 70 KiB
+# Uncompressed size: 151 KiB
+# Description:
+#   dialog - display dialog boxes from shell scripts
+#   
+#   Dialog is a program that will let you to present a variety of questions
+#   or display messages using dialog boxes  from  a  shell  script.   These
+#   types  of  dialog boxes are implemented (though not all are necessarily
+#   compiled into dialog):
+#   
+#         calendar, checklist, dselect, editbox, form, fselect, gauge,
+#         infobox, inputbox, inputmenu, menu, mixedform, mixedgauge,
+#         msgbox (message), passwordbox, passwordform, pause, progressbox,
+#         radiolist, tailbox, tailboxbg, textbox, timebox, and yesno
+#         (yes/no).
+#   
+#   Homepage: http://invisible-island.net/dialog/
+ffp/
+ffp/bin/
+ffp/bin/dialog
+ffp/etc/
+ffp/etc/dialogrc
+ffp/share/
+ffp/share/man/
+ffp/share/man/man1/
+ffp/share/man/man1/dialog.1.gz

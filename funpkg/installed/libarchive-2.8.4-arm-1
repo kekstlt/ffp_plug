@@ -1,0 +1,36 @@
+# Package name: libarchive-2.8.4-arm-1
+# Package file: arm/packages/libarchive-2.8.4-arm-1.txz
+# Compressed size: 167 KiB
+# Uncompressed size: 442 KiB
+# Description:
+#   libarchive - library and tools for reading and writing various archive formats
+#   
+#   The libarchive package contains a C library and command-line tools for reading
+#   and writing tar, cpio, zip, ISO, and other archive formats.
+#   
+#   Homepage: http://code.google.com/p/libarchive/
+#   
+ffp/
+ffp/bin/
+ffp/bin/bsdcpio
+ffp/bin/bsdtar
+ffp/include/
+ffp/include/archive.h
+ffp/include/archive_entry.h
+ffp/lib/
+ffp/lib/libarchive.la
+ffp/lib/libarchive.so
+ffp/lib/libarchive.so.2
+ffp/lib/libarchive.so.2.8.4
+ffp/lib/pkgconfig/
+ffp/lib/pkgconfig/libarchive.pc
+ffp/share/
+ffp/share/man/
+ffp/share/man/man1/
+ffp/share/man/man1/bsdcpio.1.gz
+ffp/share/man/man1/bsdtar.1.gz
+ffp/share/man/man5/
+ffp/share/man/man5/cpio.5.gz
+ffp/share/man/man5/libarchive-formats.5.gz
+ffp/share/man/man5/mtree.5.gz
+ffp/share/man/man5/tar.5.gz

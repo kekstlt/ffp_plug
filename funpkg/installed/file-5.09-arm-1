@@ -1,0 +1,35 @@
+# Package name: file-5.09-arm-1
+# Package file: arm/packages/file-5.09-arm-1.txz
+# Compressed size: 277 KiB
+# Uncompressed size: 2699 KiB
+# Description:
+#   file - Fine Free File Command
+#   
+#   The file command is "a file type guesser", that is, a command-line tool that
+#   tells you in words what kind of data a file contains. Unlike most GUI systems,
+#   command-line UNIX systems - with this program leading the charge - don't rely
+#   on filename extentions to tell you the type of a file, but look at the file's
+#   actual contents. This is, of course, more reliable, but requires a bit of I/O.
+#   
+#   Homepage: http://www.darwinsys.com/file/
+#   
+ffp/
+ffp/bin/
+ffp/bin/file
+ffp/include/
+ffp/include/magic.h
+ffp/lib/
+ffp/lib/libmagic.a
+ffp/lib/libmagic.la
+ffp/lib/libmagic.so
+ffp/lib/libmagic.so.1
+ffp/lib/libmagic.so.1.0.0
+ffp/share/
+ffp/share/man/
+ffp/share/man/man1/
+ffp/share/man/man1/file.1.gz
+ffp/share/man/man4/
+ffp/share/man/man4/magic.4.gz
+ffp/share/man/man5/
+ffp/share/misc/
+ffp/share/misc/magic.mgc

@@ -1,0 +1,24 @@
+# Package name: zlib-1.2.5-arm-1
+# Package file: arm/packages/zlib-1.2.5-arm-1.txz
+# Compressed size: 73 KiB
+# Uncompressed size: 273 KiB
+# Description:
+#   zlib - compression/decompression library
+#   
+#   A Massively Spiffy Yet Delicately Unobtrusive Compression Library
+#   (Also Free, Not to Mention Unencumbered by Patents).
+#   
+#   Homepage: http://www.zlib.net/
+ffp/
+ffp/include/
+ffp/include/zconf.h
+ffp/include/zlib.h
+ffp/lib/
+ffp/lib/libz.a
+ffp/lib/libz.so
+ffp/lib/libz.so.1
+ffp/lib/libz.so.1.2.5
+ffp/lib/pkgconfig/
+ffp/lib/pkgconfig/zlib.pc
+ffp/share/
+ffp/share/man/

@@ -1,0 +1,35 @@
+# Package name: infozip-6.0-arm-1
+# Package file: arm/packages/infozip-6.0-arm-1.txz
+# Compressed size: 255 KiB
+# Uncompressed size: 759 KiB
+# Description:
+#   infozip - Info-ZIP's zip and unzip utilities
+#   
+#   This packages includes zip, a compressor/archiver for creating and
+#   modifying zipfiles, and unzip for extracting and viewing files in .zip
+#   archives.
+#   
+#   Homepage: http://www.info-zip.org/
+ffp/
+ffp/bin/
+ffp/bin/funzip
+ffp/bin/unzip
+ffp/bin/unzipsfx
+ffp/bin/zip
+ffp/bin/zipcloak
+ffp/bin/zipgrep
+ffp/bin/zipinfo
+ffp/bin/zipnote
+ffp/bin/zipsplit
+ffp/share/
+ffp/share/man/
+ffp/share/man/man1/
+ffp/share/man/man1/funzip.1.gz
+ffp/share/man/man1/unzip.1.gz
+ffp/share/man/man1/unzipsfx.1.gz
+ffp/share/man/man1/zip.1.gz
+ffp/share/man/man1/zipcloak.1.gz
+ffp/share/man/man1/zipgrep.1.gz
+ffp/share/man/man1/zipinfo.1.gz
+ffp/share/man/man1/zipnote.1.gz
+ffp/share/man/man1/zipsplit.1.gz

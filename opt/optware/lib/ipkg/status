@@ -1,0 +1,61 @@
+Package: diffutils
+Version: 3.1-1
+Status: install ok installed
+Architecture: arm
+Installed-Time: 943920203
+
+Package: expat
+Version: 2.0.1-1
+Status: install ok installed
+Architecture: arm
+Installed-Time: 943920208
+
+Package: git
+Version: 1.8.4.2-1
+Depends: zlib, openssl, libcurl, diffutils, rcs, expat
+Suggests: git-manpages
+Status: install user installed
+Architecture: arm
+Installed-Time: 943920214
+
+Package: libcurl
+Version: 7.24.0-1
+Depends: openssl, zlib
+Status: install ok installed
+Architecture: arm
+Installed-Time: 943920202
+
+Package: nano
+Version: 2.2.6-1
+Depends: ncurses
+Status: install user installed
+Architecture: arm
+
+Package: ncurses
+Version: 5.7-3
+Status: install ok installed
+Architecture: arm
+
+Package: openssl
+Version: 0.9.8v-2
+Status: install ok installed
+Architecture: arm
+Installed-Time: 943920198
+
+Package: rcs
+Version: 5.7-2
+Status: install ok installed
+Architecture: arm
+Installed-Time: 943920207
+
+Package: sudo
+Version: 1.8.4.5-1
+Status: install user installed
+Architecture: arm
+
+Package: zlib
+Version: 1.2.5-1
+Status: install ok installed
+Architecture: arm
+Installed-Time: 943920192
+

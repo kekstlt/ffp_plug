@@ -1,0 +1,97 @@
+# Package name: lighttpd-1.4.29-arm-1
+# Package file: arm/packages/lighttpd-1.4.29-arm-1.txz
+# Compressed size: 189 KiB
+# Uncompressed size: 701 KiB
+# Description:
+#   lighttpd - fly light
+#   
+#   lighttpd is a secure, fast, compliant, and very flexible web-server
+#   that has been optimized for high-performance environments. It has a
+#   very low memory footprint compared to other webservers and takes care
+#   of cpu-load. Its advanced feature-set (FastCGI, CGI, Auth,
+#   Output-Compression, URL-Rewriting and many more) make lighttpd the
+#   perfect webserver-software for every server that suffers load
+#   problems.
+#   
+#   Homepage: http://www.lighttpd.net/
+#   
+ffp/
+ffp/etc/
+ffp/etc/examples/
+ffp/etc/examples/lighttpd.conf
+ffp/etc/examples/lighttpd.conf-with-php
+ffp/lib/
+ffp/lib/mod_access.la
+ffp/lib/mod_access.so
+ffp/lib/mod_accesslog.la
+ffp/lib/mod_accesslog.so
+ffp/lib/mod_alias.la
+ffp/lib/mod_alias.so
+ffp/lib/mod_auth.la
+ffp/lib/mod_auth.so
+ffp/lib/mod_cgi.la
+ffp/lib/mod_cgi.so
+ffp/lib/mod_cml.la
+ffp/lib/mod_cml.so
+ffp/lib/mod_compress.la
+ffp/lib/mod_compress.so
+ffp/lib/mod_dirlisting.la
+ffp/lib/mod_dirlisting.so
+ffp/lib/mod_evasive.la
+ffp/lib/mod_evasive.so
+ffp/lib/mod_evhost.la
+ffp/lib/mod_evhost.so
+ffp/lib/mod_expire.la
+ffp/lib/mod_expire.so
+ffp/lib/mod_extforward.la
+ffp/lib/mod_extforward.so
+ffp/lib/mod_fastcgi.la
+ffp/lib/mod_fastcgi.so
+ffp/lib/mod_flv_streaming.la
+ffp/lib/mod_flv_streaming.so
+ffp/lib/mod_indexfile.la
+ffp/lib/mod_indexfile.so
+ffp/lib/mod_magnet.la
+ffp/lib/mod_magnet.so
+ffp/lib/mod_mysql_vhost.la
+ffp/lib/mod_mysql_vhost.so
+ffp/lib/mod_proxy.la
+ffp/lib/mod_proxy.so
+ffp/lib/mod_redirect.la
+ffp/lib/mod_redirect.so
+ffp/lib/mod_rewrite.la
+ffp/lib/mod_rewrite.so
+ffp/lib/mod_rrdtool.la
+ffp/lib/mod_rrdtool.so
+ffp/lib/mod_scgi.la
+ffp/lib/mod_scgi.so
+ffp/lib/mod_secdownload.la
+ffp/lib/mod_secdownload.so
+ffp/lib/mod_setenv.la
+ffp/lib/mod_setenv.so
+ffp/lib/mod_simple_vhost.la
+ffp/lib/mod_simple_vhost.so
+ffp/lib/mod_ssi.la
+ffp/lib/mod_ssi.so
+ffp/lib/mod_staticfile.la
+ffp/lib/mod_staticfile.so
+ffp/lib/mod_status.la
+ffp/lib/mod_status.so
+ffp/lib/mod_trigger_b4_dl.la
+ffp/lib/mod_trigger_b4_dl.so
+ffp/lib/mod_userdir.la
+ffp/lib/mod_userdir.so
+ffp/lib/mod_usertrack.la
+ffp/lib/mod_usertrack.so
+ffp/lib/mod_webdav.la
+ffp/lib/mod_webdav.so
+ffp/sbin/
+ffp/sbin/lighttpd
+ffp/sbin/lighttpd-angel
+ffp/share/
+ffp/share/man/
+ffp/share/man/man8/
+ffp/share/man/man8/lighttpd.8.gz
+ffp/start/
+ffp/start/kickwebs.sh
+ffp/start/lighttpd.sh

@@ -1,0 +1,34 @@
+# Package name: gcc-solibs-4.5_20111110-arm-1
+# Package file: arm/packages/gcc-solibs-4.5_20111110-arm-1.txz
+# Compressed size: 289 KiB
+# Uncompressed size: 1500 KiB
+# Description:
+#   gcc - GNU project C and C++ compiler
+#   
+#   The GNU Compiler Collection includes front ends for C, C++,
+#   Objective-C, Fortran, Java, and Ada, as well as libraries for these
+#   languages (libstdc++, libgcj,...).
+#   
+#   This package contains the shared libraries libgcc, libstdc++, etc.
+#   
+#   Homepage: http://gcc.gnu.org/
+ffp/
+ffp/lib/
+ffp/lib/libgcc_s.so
+ffp/lib/libgcc_s.so.1
+ffp/lib/libgomp.so
+ffp/lib/libgomp.so.1
+ffp/lib/libgomp.so.1.0.0
+ffp/lib/libmudflap.so
+ffp/lib/libmudflap.so.0
+ffp/lib/libmudflap.so.0.0.0
+ffp/lib/libmudflapth.so
+ffp/lib/libmudflapth.so.0
+ffp/lib/libmudflapth.so.0.0.0
+ffp/lib/libssp.so
+ffp/lib/libssp.so.0
+ffp/lib/libssp.so.0.0.0
+ffp/lib/libstdc++.so
+ffp/lib/libstdc++.so.6
+ffp/lib/libstdc++.so.6.0.14
+ffp/lib/libstdc++.so.6.0.14-gdb.py

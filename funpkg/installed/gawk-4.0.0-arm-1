@@ -1,0 +1,55 @@
+# Package name: gawk-4.0.0-arm-1
+# Package file: arm/packages/gawk-4.0.0-arm-1.txz
+# Compressed size: 645 KiB
+# Uncompressed size: 1549 KiB
+# Description:
+#   gawk - pattern scanning and processing language
+#   
+#   The awk utility interprets a special-purpose programming language that makes it
+#   possible to handle simple data-reformatting jobs with just a few lines of code. 
+#   
+#   Homepage: http://www.gnu.org/software/gawk/
+#   
+ffp/
+ffp/bin/
+ffp/bin/awk
+ffp/bin/dgawk
+ffp/bin/gawk
+ffp/bin/gawk-4.0.0
+ffp/bin/igawk
+ffp/bin/pgawk
+ffp/bin/pgawk-4.0.0
+ffp/lib/
+ffp/lib/awk/
+ffp/lib/awk/grcat
+ffp/lib/awk/pwcat
+ffp/share/
+ffp/share/awk/
+ffp/share/awk/assert.awk
+ffp/share/awk/bits2str.awk
+ffp/share/awk/cliff_rand.awk
+ffp/share/awk/ctime.awk
+ffp/share/awk/ftrans.awk
+ffp/share/awk/getopt.awk
+ffp/share/awk/gettime.awk
+ffp/share/awk/group.awk
+ffp/share/awk/join.awk
+ffp/share/awk/libintl.awk
+ffp/share/awk/noassign.awk
+ffp/share/awk/ord.awk
+ffp/share/awk/passwd.awk
+ffp/share/awk/quicksort.awk
+ffp/share/awk/readable.awk
+ffp/share/awk/rewind.awk
+ffp/share/awk/round.awk
+ffp/share/awk/strtonum.awk
+ffp/share/awk/walkarray.awk
+ffp/share/awk/zerofile.awk
+ffp/share/info/
+ffp/share/info/gawk.info.gz
+ffp/share/info/gawkinet.info.gz
+ffp/share/man/
+ffp/share/man/man1/
+ffp/share/man/man1/gawk.1.gz
+ffp/share/man/man1/igawk.1.gz
+ffp/share/man/man1/pgawk.1.gz

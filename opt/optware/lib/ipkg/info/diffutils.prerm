@@ -1,0 +1,5 @@
+#!/bin/sh
+/opt/bin/update-alternatives --remove cmp /opt/bin/diffutils-cmp
+/opt/bin/update-alternatives --remove diff /opt/bin/diffutils-diff
+/opt/bin/update-alternatives --remove diff3 /opt/bin/diffutils-diff3
+/opt/bin/update-alternatives --remove sdiff /opt/bin/diffutils-sdiff

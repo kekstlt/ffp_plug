@@ -1,0 +1,26 @@
+# Package name: grep-2.9-arm-1
+# Package file: arm/packages/grep-2.9-arm-1.txz
+# Compressed size: 122 KiB
+# Uncompressed size: 471 KiB
+# Description:
+#   grep - print lines matching a pattern
+#   
+#   The grep command searches one or more input files for lines containing
+#   a match to a specified pattern. By default, grep prints the matching
+#   lines.
+#   
+#   Homepage: http://www.gnu.org/software/grep/
+#   
+ffp/
+ffp/bin/
+ffp/bin/egrep
+ffp/bin/fgrep
+ffp/bin/grep
+ffp/share/
+ffp/share/info/
+ffp/share/info/grep.info.gz
+ffp/share/man/
+ffp/share/man/man1/
+ffp/share/man/man1/egrep.1.gz
+ffp/share/man/man1/fgrep.1.gz
+ffp/share/man/man1/grep.1.gz

@@ -1,0 +1,205 @@
+#/ffp/bin/bash
+
+RUNDIR_PATH="/ffp/run.d"
+COMMANDFIFO_PATH="/ffp/var/run/fp.ctl"
+STATUSFILE_PATH="/ffp/var/run/fp.status"
+
+_usage() {
+    cat <<EOF
+Commands:
+    start|run|r NAMES...  Start new processes
+    stop|s NAMES...       Stop processes
+    restart|re NAMES...   Restart processes
+    term|t NAMES...       Send SIGTERM
+    kill|k NAMES...       Send SIGKILL
+    hup NAMES...          Send SIGHUP
+    signal N NAMES...     Send signal N
+    need NAME1 NAME2      Start NAME2, needed by NAME1
+    shutdown              Send SIGTERM to all processes
+
+EOF
+    exit 1
+}
+
+_command() {
+    echo "$@" >$COMMANDFIFO_PATH
+}
+
+_ago() { # t1 t2
+    local t=$(($1-$2)) d h m s
+    let s=t%60
+    let t=t/60
+    let m=t%60
+    let t=t/60
+    let h=t%24
+    let d=t/24
+    if [ $d -gt 0 ]; then
+	printf "%d days %02d:%02d:%02d" $d $h $m $s
+    else
+	printf "%02d:%02d:%02d" $h $m $s
+    fi
+}
+
+_list() {
+    local now=$(date '+%s')
+    local up=$(mktemp /tmp/fpc.up.XXXXXX)
+    local all=$(mktemp /tmp/fpc.all.XXXXXX)
+    local tmp=$(mktemp /tmp/fpc.tmp.XXXXXX)
+    local i
+
+    >$tmp
+    sort $STATUSFILE_PATH | while IFS=: read name pid start_time exit_status exit_time manual sigterm_time finish_pid needs needed_by; do
+	if [ $exit_status ]; then
+	    if [ -n "$finish_pid" ]; then
+		finish_pid=", finish active (pid $finish_pid)"
+	    fi
+	    if [ $exit_status -eq 0 ]; then
+		printf "%-30s down pid $pid exited normally after $(_ago $exit_time $start_time)$finish_pid\n" "$name"
+	    elif [ $exit_status -ge 256 ]; then
+		let status=$exit_status/256
+		printf "%-30s down pid $pid exited with status $status after $(_ago $exit_time $start_time)$finish_pid\n" "$name"
+	    else
+		let signum=$exit_status%127
+		printf "%-30s down pid $pid terminated by signal $signum after $(_ago $exit_time $start_time)$finish_pid\n" "$name"
+	    fi
+	else
+	    if [ -n "$manual" ]; then
+		manual=" manual"
+	    else
+		manual=" auto"
+	    fi
+	    if [ -n "$sigterm_time" ]; then
+		sigterm_time=" sigterm sent $(_ago $now $sigterm_time) ago"
+	    fi
+	    if [ -n "$needs" ]; then
+		needs=" needs $needs"
+	    fi
+	    if [ -n "$needed_by" ]; then
+		needed_by=" needed-by $needed_by"
+	    fi
+	    printf "%-30s up   $(_ago $now $start_time) pid $pid$manual$sigterm_time$needs$needed_by\n" "$name"
+	fi
+	echo $name >>$tmp
+    done
+    sort $tmp >$up
+
+    >$tmp
+    for i in $RUNDIR_PATH/*; do
+	if [ -d "$i" ]; then
+	    basename $i >>$tmp
+	fi
+    done
+    sort $tmp >$all
+
+    comm -23 $all $up | while read name; do
+	printf "%-30s down\n" "$name"
+    done
+
+    rm -f $up $all $tmp
+}
+
+_shutdown() {
+    sort $STATUSFILE_PATH | while IFS=: read name pid start_time exit_status rest; do
+	[ -z "$exit_status" ] || continue
+	_command "signal 15 $name"
+    done
+    sleep 1
+    if egrep -q '^[^:]*:[^:]*:[^:]*::' $STATUSFILE_PATH; then
+	echo "Waiting for processes to exit..."
+	while egrep -q '^[^:]*:[^:]*:[^:]*::' $STATUSFILE_PATH; do
+	    sleep 1
+	done
+    fi
+}
+
+if [ $# -eq 0 ]; then
+    _list
+    exit 0
+fi
+
+op="$1"
+shift
+case "$op" in
+    start|run|r)
+	[ $# -gt 0 ] || _usage
+	while [ $# -gt 0 ]; do
+	    _command "start $(basename ${1%/})"
+	    shift
+	done
+	;;
+
+    stop|s)
+	[ $# -gt 0 ] || _usage
+	while [ $# -gt 0 ]; do
+	    _command "stop $(basename ${1%/})"
+	    shift
+	done
+	;;
+
+    restart|re)
+	[ $# -gt 0 ] || _usage
+	while [ $# -gt 0 ]; do
+	    _command "restart $(basename ${1%/})"
+	    shift
+	done
+	;;
+
+    term|t)
+	[ $# -gt 0 ] || _usage
+	while [ $# -gt 0 ]; do
+	    _command "signal 15 $(basename ${1%/})"
+	    shift
+	done
+	;;
+
+    kill|k)
+	[ $# -gt 0 ] || _usage
+	while [ $# -gt 0 ]; do
+	    _command "signal 9 $(basename ${1%/})"
+	    shift
+	done
+	;;
+
+    hup)
+	[ $# -gt 0 ] || _usage
+	while [ $# -gt 0 ]; do
+	    _command "signal 1 $(basename ${1%/})"
+	    shift
+	done
+	;;
+
+    signal)
+	[ $# -gt 1 ] || _usage
+	n="$1"
+	shift
+	while [ $# -gt 0 ]; do
+	    _command "signal $n $(basename ${1%/})"
+	    shift
+	done
+	;;
+
+    need)
+	[ $# -gt 1 ] || _usage
+	a="$(basename ${1%/})"
+	shift
+	while [ $# -gt 0 ]; do
+	    _command "need $a $(basename ${1%/})"
+	    shift
+	done
+	;;
+
+    gc)
+	[ $# -eq 0 ] || _usage
+	_command "gc"
+	;;
+
+    shutdown)
+	[ $# -eq 0 ] || _usage
+	_shutdown
+	;;
+
+    *)
+	_usage
+	;;
+esac
+

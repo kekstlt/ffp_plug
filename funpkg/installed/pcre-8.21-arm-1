@@ -1,0 +1,113 @@
+# Package name: pcre-8.21-arm-1
+# Package file: arm/packages/pcre-8.21-arm-1.txz
+# Compressed size: 435 KiB
+# Uncompressed size: 2050 KiB
+# Description:
+#   PCRE - Perl Compatible Regular Expressions
+#   
+#   The PCRE library is a set of functions that implement regular
+#   expression pattern matching using the same syntax and semantics as
+#   Perl 5. PCRE has its own native API, as well as a set of wrapper
+#   functions that correspond to the POSIX regular expression API. The
+#   PCRE library is free, even for building proprietary software.
+#   
+#   Homepage: http://pcre.org/
+#   
+ffp/
+ffp/bin/
+ffp/bin/pcre-config
+ffp/bin/pcregrep
+ffp/bin/pcretest
+ffp/include/
+ffp/include/pcre.h
+ffp/include/pcre_scanner.h
+ffp/include/pcre_stringpiece.h
+ffp/include/pcrecpp.h
+ffp/include/pcrecpparg.h
+ffp/include/pcreposix.h
+ffp/lib/
+ffp/lib/libpcre.a
+ffp/lib/libpcre.la
+ffp/lib/libpcre.so
+ffp/lib/libpcre.so.0
+ffp/lib/libpcre.so.0.0.1
+ffp/lib/libpcrecpp.a
+ffp/lib/libpcrecpp.la
+ffp/lib/libpcrecpp.so
+ffp/lib/libpcrecpp.so.0
+ffp/lib/libpcrecpp.so.0.0.0
+ffp/lib/libpcreposix.a
+ffp/lib/libpcreposix.la
+ffp/lib/libpcreposix.so
+ffp/lib/libpcreposix.so.0
+ffp/lib/libpcreposix.so.0.0.0
+ffp/lib/pkgconfig/
+ffp/lib/pkgconfig/libpcre.pc
+ffp/lib/pkgconfig/libpcrecpp.pc
+ffp/lib/pkgconfig/libpcreposix.pc
+ffp/share/
+ffp/share/doc/
+ffp/share/doc/pcre/
+ffp/share/doc/pcre/AUTHORS
+ffp/share/doc/pcre/COPYING
+ffp/share/doc/pcre/ChangeLog
+ffp/share/doc/pcre/LICENCE
+ffp/share/doc/pcre/NEWS
+ffp/share/doc/pcre/README
+ffp/share/doc/pcre/html/
+ffp/share/doc/pcre/html/index.html
+ffp/share/doc/pcre/html/pcre-config.html
+ffp/share/doc/pcre/html/pcre.html
+ffp/share/doc/pcre/html/pcre_assign_jit_stack.html
+ffp/share/doc/pcre/html/pcre_compile.html
+ffp/share/doc/pcre/html/pcre_compile2.html
+ffp/share/doc/pcre/html/pcre_config.html
+ffp/share/doc/pcre/html/pcre_copy_named_substring.html
+ffp/share/doc/pcre/html/pcre_copy_substring.html
+ffp/share/doc/pcre/html/pcre_dfa_exec.html
+ffp/share/doc/pcre/html/pcre_exec.html
+ffp/share/doc/pcre/html/pcre_free_study.html
+ffp/share/doc/pcre/html/pcre_free_substring.html
+ffp/share/doc/pcre/html/pcre_free_substring_list.html
+ffp/share/doc/pcre/html/pcre_fullinfo.html
+ffp/share/doc/pcre/html/pcre_get_named_substring.html
+ffp/share/doc/pcre/html/pcre_get_stringnumber.html
+ffp/share/doc/pcre/html/pcre_get_stringtable_entries.html
+ffp/share/doc/pcre/html/pcre_get_substring.html
+ffp/share/doc/pcre/html/pcre_get_substring_list.html
+ffp/share/doc/pcre/html/pcre_info.html
+ffp/share/doc/pcre/html/pcre_jit_stack_alloc.html
+ffp/share/doc/pcre/html/pcre_jit_stack_free.html
+ffp/share/doc/pcre/html/pcre_maketables.html
+ffp/share/doc/pcre/html/pcre_refcount.html
+ffp/share/doc/pcre/html/pcre_study.html
+ffp/share/doc/pcre/html/pcre_version.html
+ffp/share/doc/pcre/html/pcreapi.html
+ffp/share/doc/pcre/html/pcrebuild.html
+ffp/share/doc/pcre/html/pcrecallout.html
+ffp/share/doc/pcre/html/pcrecompat.html
+ffp/share/doc/pcre/html/pcrecpp.html
+ffp/share/doc/pcre/html/pcredemo.html
+ffp/share/doc/pcre/html/pcregrep.html
+ffp/share/doc/pcre/html/pcrejit.html
+ffp/share/doc/pcre/html/pcrelimits.html
+ffp/share/doc/pcre/html/pcrematching.html
+ffp/share/doc/pcre/html/pcrepartial.html
+ffp/share/doc/pcre/html/pcrepattern.html
+ffp/share/doc/pcre/html/pcreperform.html
+ffp/share/doc/pcre/html/pcreposix.html
+ffp/share/doc/pcre/html/pcreprecompile.html
+ffp/share/doc/pcre/html/pcresample.html
+ffp/share/doc/pcre/html/pcrestack.html
+ffp/share/doc/pcre/html/pcresyntax.html
+ffp/share/doc/pcre/html/pcretest.html
+ffp/share/doc/pcre/html/pcreunicode.html
+ffp/share/doc/pcre/pcre-config.txt
+ffp/share/doc/pcre/pcre.txt
+ffp/share/doc/pcre/pcregrep.txt
+ffp/share/doc/pcre/pcretest.txt
+ffp/share/man/
+ffp/share/man/man1/
+ffp/share/man/man1/pcre-config.1.gz
+ffp/share/man/man1/pcregrep.1.gz
+ffp/share/man/man1/pcretest.1.gz

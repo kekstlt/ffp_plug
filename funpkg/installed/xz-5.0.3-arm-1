@@ -1,0 +1,121 @@
+# Package name: xz-5.0.3-arm-1
+# Package file: arm/packages/xz-5.0.3-arm-1.txz
+# Compressed size: 213 KiB
+# Uncompressed size: 837 KiB
+# Description:
+#   xz - XZ Utils
+#   
+#   XZ Utils is free general-purpose data compression software with high
+#   compression ratio. XZ Utils were written for POSIX-like systems
+#   (GNU/Linux, *BSDs, etc.), but also work on some not-so-POSIX systems
+#   like Windows. XZ Utils are the successor to LZMA Utils.
+#   
+#   Homepage: http://tukaani.org/xz/
+ffp/
+ffp/bin/
+ffp/bin/lzcat
+ffp/bin/lzcmp
+ffp/bin/lzdiff
+ffp/bin/lzegrep
+ffp/bin/lzfgrep
+ffp/bin/lzgrep
+ffp/bin/lzless
+ffp/bin/lzma
+ffp/bin/lzmadec
+ffp/bin/lzmainfo
+ffp/bin/lzmore
+ffp/bin/unlzma
+ffp/bin/unxz
+ffp/bin/xz
+ffp/bin/xzcat
+ffp/bin/xzcmp
+ffp/bin/xzdec
+ffp/bin/xzdiff
+ffp/bin/xzegrep
+ffp/bin/xzfgrep
+ffp/bin/xzgrep
+ffp/bin/xzless
+ffp/bin/xzmore
+ffp/include/
+ffp/include/lzma.h
+ffp/include/lzma/
+ffp/include/lzma/base.h
+ffp/include/lzma/bcj.h
+ffp/include/lzma/block.h
+ffp/include/lzma/check.h
+ffp/include/lzma/container.h
+ffp/include/lzma/delta.h
+ffp/include/lzma/filter.h
+ffp/include/lzma/hardware.h
+ffp/include/lzma/index.h
+ffp/include/lzma/index_hash.h
+ffp/include/lzma/lzma.h
+ffp/include/lzma/stream_flags.h
+ffp/include/lzma/version.h
+ffp/include/lzma/vli.h
+ffp/lib/
+ffp/lib/liblzma.a
+ffp/lib/liblzma.la
+ffp/lib/liblzma.so
+ffp/lib/liblzma.so.5
+ffp/lib/liblzma.so.5.0.3
+ffp/lib/pkgconfig/
+ffp/lib/pkgconfig/liblzma.pc
+ffp/share/
+ffp/share/doc/
+ffp/share/doc/xz-5.0.3/
+ffp/share/doc/xz-5.0.3/AUTHORS
+ffp/share/doc/xz-5.0.3/COPYING
+ffp/share/doc/xz-5.0.3/COPYING.GPLv2
+ffp/share/doc/xz-5.0.3/NEWS
+ffp/share/doc/xz-5.0.3/README
+ffp/share/doc/xz-5.0.3/THANKS
+ffp/share/doc/xz-5.0.3/TODO
+ffp/share/doc/xz-5.0.3/examples/
+ffp/share/doc/xz-5.0.3/examples/xz_pipe_comp.c
+ffp/share/doc/xz-5.0.3/examples/xz_pipe_decomp.c
+ffp/share/doc/xz-5.0.3/faq.txt
+ffp/share/doc/xz-5.0.3/history.txt
+ffp/share/doc/xz-5.0.3/lzma-file-format.txt
+ffp/share/doc/xz-5.0.3/xz-file-format.txt
+ffp/share/locale/
+ffp/share/locale/cs/
+ffp/share/locale/cs/LC_MESSAGES/
+ffp/share/locale/cs/LC_MESSAGES/xz.mo
+ffp/share/locale/de/
+ffp/share/locale/de/LC_MESSAGES/
+ffp/share/locale/de/LC_MESSAGES/xz.mo
+ffp/share/locale/fr/
+ffp/share/locale/fr/LC_MESSAGES/
+ffp/share/locale/fr/LC_MESSAGES/xz.mo
+ffp/share/locale/it/
+ffp/share/locale/it/LC_MESSAGES/
+ffp/share/locale/it/LC_MESSAGES/xz.mo
+ffp/share/locale/pl/
+ffp/share/locale/pl/LC_MESSAGES/
+ffp/share/locale/pl/LC_MESSAGES/xz.mo
+ffp/share/man/
+ffp/share/man/man1/
+ffp/share/man/man1/lzcat.1.gz
+ffp/share/man/man1/lzcmp.1.gz
+ffp/share/man/man1/lzdiff.1.gz
+ffp/share/man/man1/lzegrep.1.gz
+ffp/share/man/man1/lzfgrep.1.gz
+ffp/share/man/man1/lzgrep.1.gz
+ffp/share/man/man1/lzless.1.gz
+ffp/share/man/man1/lzma.1.gz
+ffp/share/man/man1/lzmadec.1.gz
+ffp/share/man/man1/lzmainfo.1.gz
+ffp/share/man/man1/lzmore.1.gz
+ffp/share/man/man1/unlzma.1.gz
+ffp/share/man/man1/unxz.1.gz
+ffp/share/man/man1/xz.1.gz
+ffp/share/man/man1/xzcat.1.gz
+ffp/share/man/man1/xzcmp.1.gz
+ffp/share/man/man1/xzdec.1.gz
+ffp/share/man/man1/xzdiff.1.gz
+ffp/share/man/man1/xzegrep.1.gz
+ffp/share/man/man1/xzfgrep.1.gz
+ffp/share/man/man1/xzgrep.1.gz
+ffp/share/man/man1/xzless.1.gz
+ffp/share/man/man1/xzmore.1.gz

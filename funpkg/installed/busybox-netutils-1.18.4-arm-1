@@ -1,0 +1,36 @@
+# Package name: busybox-netutils-1.18.4-arm-1
+# Package file: arm/packages/busybox-netutils-1.18.4-arm-1.txz
+# Compressed size: 60 KiB
+# Uncompressed size: 135 KiB
+ffp/
+ffp/bin/
+ffp/bin/arping
+ffp/bin/busybox-netutils
+ffp/bin/dnsdomainname
+ffp/bin/ether-wake
+ffp/bin/hostname
+ffp/bin/nc
+ffp/bin/netstat
+ffp/bin/nslookup
+ffp/bin/ping
+ffp/bin/ping6
+ffp/bin/telnet
+ffp/bin/traceroute
+ffp/bin/traceroute6
+ffp/etc/
+ffp/etc/examples/
+ffp/etc/examples/inetd.conf
+ffp/sbin/
+ffp/sbin/arp
+ffp/sbin/ifconfig
+ffp/sbin/inetd
+ffp/sbin/route
+ffp/sbin/telnetd
+ffp/sbin/vconfig
+ffp/share/
+ffp/share/man/
+ffp/share/man/man1/
+ffp/share/man/man1/busybox-netutils.1.gz
+ffp/start/
+ffp/start/inetd.sh
+ffp/start/telnetd.sh

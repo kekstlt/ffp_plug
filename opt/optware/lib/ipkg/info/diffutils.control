@@ -1,0 +1,10 @@
+Package: diffutils
+Architecture: arm
+Priority: optional
+Section: util
+Version: 3.1-1
+Maintainer: Jeremy Eglen <jieglen@sbcglobal.net>
+Source: http://ftp.gnu.org/pub/gnu/diffutils/diffutils-3.1.tar.gz
+Description: contains gnu diff, cmp, sdiff and diff3 to display differences between and among text files
+Depends: 
+Conflicts: 

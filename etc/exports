@@ -1,0 +1,7 @@
+/mnt/HD 192.168.1.0/24(rw,no_root_squash,no_subtree_check)
+/mnt/HD_a2 192.168.1.0/24(rw,no_root_squash,no_subtree_check)
+/mnt/HD_a4 192.168.1.0/24(rw,no_root_squash,no_subtree_check)
+/mnt/USB 192.168.1.0/24(rw,no_root_squash,no_subtree_check)
+/mnt/image 192.168.1.0/24(rw,no_root_squash,no_subtree_check)
+/mnt/isoMount 192.168.1.0/24(rw,no_root_squash,no_subtree_check)
+/mnt/web_page 192.168.1.0/24(rw,no_root_squash,no_subtree_check)

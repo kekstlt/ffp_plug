@@ -1,0 +1,24 @@
+# Package name: tcp_wrappers-7.6-arm-1
+# Package file: arm/packages/tcp_wrappers-7.6-arm-1.txz
+# Compressed size: 32 KiB
+# Uncompressed size: 192 KiB
+# Description:
+#   tcp_wrappers - Wietse Venema's network logger
+#   
+#   These programs log the client host name of incoming telnet, ftp, rsh,
+#   rlogin, finger etc. requests. Security options are: access control per
+#   host, domain and/or service; detection of host name spoofing or host
+#   address spoofing; booby traps to implement an early-warning system.
+#   
+#   Homepage: http://ftp.porcupine.org/pub/security/index.html
+ffp/
+ffp/include/
+ffp/include/tcpd.h
+ffp/lib/
+ffp/lib/libwrap.a
+ffp/sbin/
+ffp/sbin/safe_finger
+ffp/sbin/tcpd
+ffp/sbin/tcpdchk
+ffp/sbin/tcpdmatch
+ffp/sbin/try-from

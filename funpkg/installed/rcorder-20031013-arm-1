@@ -1,0 +1,22 @@
+# Package name: rcorder-20031013-arm-1
+# Package file: arm/packages/rcorder-20031013-arm-1.txz
+# Compressed size: 8 KiB
+# Uncompressed size: 16 KiB
+# Description:
+#   rcorder (from NetBSD)
+#   
+#   rcorder is designed to print out a dependency ordering of a set of
+#   interdependent files. Typically it is used to find an execution
+#   sequence for a set of shell scripts in which certain files must be
+#   executed before others (such as rc.d startup and shutdown scripts).
+#   
+#   Homepage: http://www.netbsd.org/
+ffp/
+ffp/sbin/
+ffp/sbin/rcorder
+ffp/share/
+ffp/share/man/
+ffp/share/man/cat8/
+ffp/share/man/cat8/rcorder.0
+ffp/share/man/man8/
+ffp/share/man/man8/rcorder.8.gz

@@ -1,0 +1,23 @@
+# Package name: tar-1.26-arm-1
+# Package file: arm/packages/tar-1.26-arm-1.txz
+# Compressed size: 312 KiB
+# Uncompressed size: 530 KiB
+# Description:
+#   tar - The GNU version of the tar archiving utility
+#   
+#   The Tar program provides the ability to create tar archives, as well
+#   as various other kinds of manipulation. For example, you can use Tar
+#   on previously created archives to extract files, to store additional
+#   files, or to update or list files which were already stored.
+#   
+#   Homepage: http://www.gnu.org/software/tar/
+ffp/
+ffp/bin/
+ffp/bin/tar
+ffp/sbin/
+ffp/sbin/rmt
+ffp/share/
+ffp/share/info/
+ffp/share/info/tar.info-1.gz
+ffp/share/info/tar.info-2.gz
+ffp/share/info/tar.info.gz

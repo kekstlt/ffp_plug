@@ -1,0 +1,20 @@
+# Package name: funpkg-0.6.3-arm-1
+# Package file: arm/packages/funpkg-0.6.3-arm-1.txz
+# Compressed size: 12 KiB
+# Uncompressed size: 42 KiB
+ffp/
+ffp/bin/
+ffp/bin/funpkg
+ffp/bin/newconf
+ffp/bin/slacker
+ffp/etc/
+ffp/etc/funpkg/
+ffp/etc/funpkg/dist.rules
+ffp/etc/funpkg/sites
+ffp/etc/funpkg/slacker.conf
+ffp/funpkg/
+ffp/funpkg/cache/
+ffp/funpkg/installed/
+ffp/funpkg/removed/
+ffp/sbin/
+ffp/sbin/makepkg

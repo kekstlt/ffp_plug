@@ -1,0 +1,39 @@
+# Package name: readline-6.2.001-arm-1
+# Package file: arm/packages/readline-6.2.001-arm-1.txz
+# Compressed size: 257 KiB
+# Uncompressed size: 781 KiB
+# Description:
+#   readline - The GNU Readline Library
+#   
+#   The GNU Readline library provides a set of functions for use by
+#   applications that allow users to edit command lines as they are typed
+#   in.
+#   
+#   Homepage: http://cnswww.cns.cwru.edu/php/chet/readline/rltop.html
+ffp/
+ffp/bin/
+ffp/include/
+ffp/include/readline/
+ffp/include/readline/chardefs.h
+ffp/include/readline/history.h
+ffp/include/readline/keymaps.h
+ffp/include/readline/readline.h
+ffp/include/readline/rlconf.h
+ffp/include/readline/rlstdc.h
+ffp/include/readline/rltypedefs.h
+ffp/include/readline/tilde.h
+ffp/lib/
+ffp/lib/libhistory.a
+ffp/lib/libhistory.so
+ffp/lib/libhistory.so.6
+ffp/lib/libhistory.so.6.2
+ffp/lib/libreadline.a
+ffp/lib/libreadline.so
+ffp/lib/libreadline.so.6
+ffp/lib/libreadline.so.6.2
+ffp/share/
+ffp/share/info/
+ffp/share/info/history.info.gz
+ffp/share/info/readline.info.gz
+ffp/share/info/rluserman.info.gz
+ffp/share/man/

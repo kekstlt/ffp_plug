@@ -1,0 +1,24 @@
+# Package name: sed-4.2.1-arm-1
+# Package file: arm/packages/sed-4.2.1-arm-1.txz
+# Compressed size: 75 KiB
+# Uncompressed size: 129 KiB
+# Description:
+#   sed - stream editor for filtering and transforming text
+#   
+#   Sed (streams editor) isn't really a true text editor or text
+#   processor. Instead, it is used to filter text, i.e., it takes text
+#   input and performs some operation (or set of operations) on it and
+#   outputs the modified text. Sed is typically used for extracting part
+#   of a file using pattern matching or substituting multiple occurrences
+#   of a string within a file.
+#   
+#   Homepage: http://www.gnu.org/software/sed/
+ffp/
+ffp/bin/
+ffp/bin/sed
+ffp/share/
+ffp/share/info/
+ffp/share/info/sed.info.gz
+ffp/share/man/
+ffp/share/man/man1/
+ffp/share/man/man1/sed.1.gz

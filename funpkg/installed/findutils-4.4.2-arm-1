@@ -1,0 +1,47 @@
+# Package name: findutils-4.4.2-arm-1
+# Package file: arm/packages/findutils-4.4.2-arm-1.txz
+# Compressed size: 267 KiB
+# Uncompressed size: 727 KiB
+# Description:
+#   findutils - Finding Files
+#   
+#   The GNU Find Utilities are the basic directory searching utilities of
+#   the GNU operating system. These programs are typically used in
+#   conjunction with other programs to provide modular and powerful
+#   directory search and file locating capabilities to other commands.
+#   
+#   The tools supplied with this package are:
+#    * find - search for files in a directory hierarchy
+#    * locate - list files in databases that match a pattern
+#    * updatedb - update a file name database
+#    * xargs - build and execute command lines from standard input 
+#   
+#   Homepage: http://www.gnu.org/software/findutils/
+#   
+ffp/
+ffp/bin/
+ffp/bin/find
+ffp/bin/locate
+ffp/bin/oldfind
+ffp/bin/updatedb
+ffp/bin/xargs
+ffp/lib/
+ffp/lib/findutils/
+ffp/lib/findutils/bigram
+ffp/lib/findutils/code
+ffp/lib/findutils/frcode
+ffp/share/
+ffp/share/info/
+ffp/share/info/find-maint.info.gz
+ffp/share/info/find.info.gz
+ffp/share/man/
+ffp/share/man/man1/
+ffp/share/man/man1/find.1.gz
+ffp/share/man/man1/locate.1.gz
+ffp/share/man/man1/updatedb.1.gz
+ffp/share/man/man1/xargs.1.gz
+ffp/share/man/man5/
+ffp/share/man/man5/locatedb.5.gz
+ffp/var/
+ffp/var/lib/
+ffp/var/lib/locate/

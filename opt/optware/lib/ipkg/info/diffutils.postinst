@@ -1,0 +1,5 @@
+#!/bin/sh
+/opt/bin/update-alternatives --install /opt/bin/cmp cmp /opt/bin/diffutils-cmp 80
+/opt/bin/update-alternatives --install /opt/bin/diff diff /opt/bin/diffutils-diff 80
+/opt/bin/update-alternatives --install /opt/bin/diff3 diff3 /opt/bin/diffutils-diff3 80
+/opt/bin/update-alternatives --install /opt/bin/sdiff sdiff /opt/bin/diffutils-sdiff 80

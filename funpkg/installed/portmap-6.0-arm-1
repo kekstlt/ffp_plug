@@ -1,0 +1,30 @@
+# Package name: portmap-6.0-arm-1
+# Package file: arm/packages/portmap-6.0-arm-1.txz
+# Compressed size: 24 KiB
+# Uncompressed size: 60 KiB
+# Description:
+#   portmap - DARPA port to RPC program number mapper
+#   
+#   portmap is a part of the ONCRPC collection of software for
+#   implementing remote procedure calls between computer programs. It is
+#   use widely by NFS and NIS, and assorted other systems.
+#   
+ffp/
+ffp/sbin/
+ffp/sbin/pmap_dump
+ffp/sbin/pmap_set
+ffp/sbin/rpc.portmap
+ffp/share/
+ffp/share/doc/
+ffp/share/doc/portmap-6.0/
+ffp/share/doc/portmap-6.0/BLURBv5
+ffp/share/doc/portmap-6.0/CHANGES
+ffp/share/doc/portmap-6.0/README
+ffp/share/doc/portmap-6.0/README.5
+ffp/share/man/
+ffp/share/man/man8/
+ffp/share/man/man8/pmap_dump.8.gz
+ffp/share/man/man8/pmap_set.8.gz
+ffp/share/man/man8/portmap.8.gz
+ffp/start/
+ffp/start/portmap.sh

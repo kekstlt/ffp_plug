@@ -1,0 +1,66 @@
+# Package name: nfs-utils-1.2.5-arm-1
+# Package file: arm/packages/nfs-utils-1.2.5-arm-1.txz
+# Compressed size: 231 KiB
+# Uncompressed size: 862 KiB
+# Description:
+#   nfs-utils - The Linux NFS utility package
+#   
+#   The nfs-utils package provides the tools needed to run a NFS server.
+#   
+ffp/
+ffp/sbin/
+ffp/sbin/exportfs
+ffp/sbin/mount.nfs
+ffp/sbin/mount.nfs4
+ffp/sbin/mountstats
+ffp/sbin/nfsiostat
+ffp/sbin/nfsstat
+ffp/sbin/rpc.mountd
+ffp/sbin/rpc.nfsd
+ffp/sbin/rpc.statd
+ffp/sbin/rpcdebug
+ffp/sbin/showmount
+ffp/sbin/sm-notify
+ffp/sbin/start-statd
+ffp/sbin/umount.nfs
+ffp/sbin/umount.nfs4
+ffp/share/
+ffp/share/doc/
+ffp/share/doc/nfs-utils-1.2.5/
+ffp/share/doc/nfs-utils-1.2.5/COPYING
+ffp/share/doc/nfs-utils-1.2.5/NEWS
+ffp/share/doc/nfs-utils-1.2.5/README
+ffp/share/man/
+ffp/share/man/man5/
+ffp/share/man/man5/exports.5.gz
+ffp/share/man/man5/nfs.5.gz
+ffp/share/man/man7/
+ffp/share/man/man7/nfsd.7.gz
+ffp/share/man/man8/
+ffp/share/man/man8/exportfs.8.gz
+ffp/share/man/man8/mount.nfs.8.gz
+ffp/share/man/man8/mountd.8.gz
+ffp/share/man/man8/mountstats.8.gz
+ffp/share/man/man8/nfsd.8.gz
+ffp/share/man/man8/nfsiostat.8.gz
+ffp/share/man/man8/nfsstat.8.gz
+ffp/share/man/man8/rpc.mountd.8.gz
+ffp/share/man/man8/rpc.nfsd.8.gz
+ffp/share/man/man8/rpc.sm-notify.8.gz
+ffp/share/man/man8/rpc.statd.8.gz
+ffp/share/man/man8/rpcdebug.8.gz
+ffp/share/man/man8/showmount.8.gz
+ffp/share/man/man8/sm-notify.8.gz
+ffp/share/man/man8/statd.8.gz
+ffp/share/man/man8/umount.nfs.8.gz
+ffp/start/
+ffp/start/nfsd.sh
+ffp/var/
+ffp/var/lib/
+ffp/var/lib/nfs/
+ffp/var/lib/nfs/etab
+ffp/var/lib/nfs/rmtab
+ffp/var/lib/nfs/sm.bak/
+ffp/var/lib/nfs/sm/
+ffp/var/lib/nfs/state
+ffp/var/lib/nfs/xtab

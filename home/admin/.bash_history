@@ -1,0 +1,4 @@
+mc
+reboot
+restart
+mc

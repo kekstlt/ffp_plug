@@ -1,0 +1,57 @@
+
+[input2]
+0=/mnt/HD_a2/backup
+
+[input-def]
+0=*
+
+[save-as]
+0=/usr/local/config/shadow
+1=/usr/local/modules/default/shadow
+
+[cmdline]
+0=mkdir backup
+1=cd /mnt
+2=
+
+[Dir Hist New Right Panel]
+0=/mnt
+1=/mnt/HD_a2
+2=/mnt/HD_a2/backup/ffp/etc
+3=/mnt/HD_a2/backup/ffp
+4=/mnt/HD_a2/backup
+5=/
+
+[Dir Hist New Left Panel]
+0=/root
+1=/home/root
+2=/home/squeezecenter
+3=/home
+4=/ffp/home/admin
+5=/ffp/home/root
+6=/ffp/home
+7=/sys
+8=/sbin
+9=/bin
+10=/etc
+11=/usr/local/config
+12=/usr/local/modules/sbin
+13=/mnt/HD
+14=/mnt/HD_a4
+15=/mnt/USB
+16=/ffp/start
+17=/usr/bin
+18=/usr/local/modules/default
+19=/usr/local/modules/driver
+20=/usr/local/modules/files
+21=/usr/local/modules/script
+22=/usr/local/modules
+23=/usr/local
+24=/ffp
+25=/mnt
+26=/mnt/HD_a2
+27=/mnt/HD_a2/ffp
+28=/mnt/HD_a2/ffp/start
+29=/
+30=/usr
+31=/usr/sbin

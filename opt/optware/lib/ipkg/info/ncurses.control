@@ -1,0 +1,10 @@
+Package: ncurses
+Architecture: arm
+Priority: optional
+Section: net
+Version: 5.7-3
+Maintainer: Christopher Blunck <christopher.blunck@gmail.com>
+Source: ftp://invisible-island.net/ncurses/ncurses-5.7.tar.gz
+Description: NCurses libraries
+Depends: 
+Conflicts: 

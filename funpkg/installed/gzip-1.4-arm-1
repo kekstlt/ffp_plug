@@ -1,0 +1,45 @@
+# Package name: gzip-1.4-arm-1
+# Package file: arm/packages/gzip-1.4-arm-1.txz
+# Compressed size: 69 KiB
+# Uncompressed size: 138 KiB
+# Description:
+#   gzip - a popular data compression program
+#   
+#   gzip (GNU zip) is a popular data compression program written by
+#   Jean-loup Gailly for the GNU project. Mark Adler wrote the
+#   decompression part.
+#   
+#   Homepage: http://www.gnu.org/software/gzip/
+#   
+ffp/
+ffp/bin/
+ffp/bin/gunzip
+ffp/bin/gzexe
+ffp/bin/gzip
+ffp/bin/uncompress
+ffp/bin/zcat
+ffp/bin/zcmp
+ffp/bin/zdiff
+ffp/bin/zegrep
+ffp/bin/zfgrep
+ffp/bin/zforce
+ffp/bin/zgrep
+ffp/bin/zless
+ffp/bin/zmore
+ffp/bin/znew
+ffp/share/
+ffp/share/info/
+ffp/share/info/gzip.info.gz
+ffp/share/man/
+ffp/share/man/man1/
+ffp/share/man/man1/gunzip.1.gz
+ffp/share/man/man1/gzexe.1.gz
+ffp/share/man/man1/gzip.1.gz
+ffp/share/man/man1/zcat.1.gz
+ffp/share/man/man1/zcmp.1.gz
+ffp/share/man/man1/zdiff.1.gz
+ffp/share/man/man1/zforce.1.gz
+ffp/share/man/man1/zgrep.1.gz
+ffp/share/man/man1/zless.1.gz
+ffp/share/man/man1/zmore.1.gz
+ffp/share/man/man1/znew.1.gz

@@ -1,0 +1,11 @@
+Package: sudo
+Architecture: arm
+Priority: optional
+Section: sysutil
+Version: 1.8.4.5-1
+Maintainer: NSLU2 Linux <nslu2-linux@yahoogroups.com>
+Source: http://www.gratisoft.us/sudo/dist/sudo-1.8.4p5.tar.gz
+Description: System utility to execute commands as the superuser
+Depends: 
+Suggests: 
+Conflicts: 

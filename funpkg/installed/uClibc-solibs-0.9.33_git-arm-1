@@ -1,0 +1,43 @@
+# Package name: uClibc-solibs-0.9.33_git-arm-1
+# Package file: arm/packages/uClibc-solibs-0.9.33_git-arm-1.txz
+# Compressed size: 214 KiB
+# Uncompressed size: 597 KiB
+# Description:
+#   uClibc - A C library for embedded Linux
+#   
+#   uClibc (pronounced yew-see-lib-see) is a C library for developing embedded
+#   Linux systems. It is much smaller than the GNU C Library, but nearly all
+#   applications supported by glibc also work perfectly with uClibc.
+#   
+#   This package contains the shared libraries libc, etc.
+#   
+#   Homepage: http://www.uclibc.org/
+#   
+ffp/
+ffp/lib/
+ffp/lib/ld-uClibc-0.9.33-git.so
+ffp/lib/ld-uClibc.so.0
+ffp/lib/libc.so
+ffp/lib/libc.so.0
+ffp/lib/libcrypt-0.9.33-git.so
+ffp/lib/libcrypt.so
+ffp/lib/libcrypt.so.0
+ffp/lib/libdl-0.9.33-git.so
+ffp/lib/libdl.so
+ffp/lib/libdl.so.0
+ffp/lib/libm-0.9.33-git.so
+ffp/lib/libm.so
+ffp/lib/libm.so.0
+ffp/lib/libpthread-0.9.33-git.so
+ffp/lib/libpthread.so
+ffp/lib/libpthread.so.0
+ffp/lib/librt-0.9.33-git.so
+ffp/lib/librt.so
+ffp/lib/librt.so.0
+ffp/lib/libthread_db-0.9.33-git.so
+ffp/lib/libthread_db.so
+ffp/lib/libthread_db.so.1
+ffp/lib/libuClibc-0.9.33-git.so
+ffp/lib/libutil-0.9.33-git.so
+ffp/lib/libutil.so
+ffp/lib/libutil.so.0

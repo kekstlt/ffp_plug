@@ -1,0 +1,29 @@
+# Package name: expat-2.0.1-arm-1
+# Package file: arm/packages/expat-2.0.1-arm-1.txz
+# Compressed size: 163 KiB
+# Uncompressed size: 676 KiB
+# Description:
+#   <eXpat/> - The Expat XML Parser
+#   
+#   Expat is an XML parser library written in C. It is a stream-oriented
+#   parser in which an application registers handlers for things the
+#   parser might find in the XML document (like start tags). An
+#   introductory article on using Expat is available on xml.com.
+#   
+#   Homepage: http://expat.sourceforge.net/
+ffp/
+ffp/bin/
+ffp/bin/xmlwf
+ffp/include/
+ffp/include/expat.h
+ffp/include/expat_external.h
+ffp/lib/
+ffp/lib/libexpat.a
+ffp/lib/libexpat.la
+ffp/lib/libexpat.so
+ffp/lib/libexpat.so.1
+ffp/lib/libexpat.so.1.5.2
+ffp/share/
+ffp/share/man/
+ffp/share/man/man1/
+ffp/share/man/man1/xmlwf.1.gz

@@ -1,0 +1,26 @@
+# Package name: rsync-3.0.9-arm-1
+# Package file: arm/packages/rsync-3.0.9-arm-1.txz
+# Compressed size: 218 KiB
+# Uncompressed size: 423 KiB
+# Description:
+#   rsync - a fast, versatile, remote (and local) file-copying tool
+#   
+#   rsync is an open source utility that provides fast incremental file
+#   transfer. rsync is freely available under the GNU General Public
+#   License and is currently being maintained by Wayne Davison.
+#   
+#   Homepage: http://rsync.samba.org/
+ffp/
+ffp/bin/
+ffp/bin/rsync
+ffp/etc/
+ffp/etc/examples/
+ffp/etc/examples/rsyncd.conf
+ffp/share/
+ffp/share/man/
+ffp/share/man/man1/
+ffp/share/man/man1/rsync.1.gz
+ffp/share/man/man5/
+ffp/share/man/man5/rsyncd.conf.5.gz
+ffp/start/
+ffp/start/rsyncd.sh

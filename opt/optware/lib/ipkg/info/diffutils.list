@@ -1,0 +1,4 @@
+/opt/bin/diffutils-diff
+/opt/bin/diffutils-diff3
+/opt/bin/diffutils-sdiff
+/opt/bin/diffutils-cmp

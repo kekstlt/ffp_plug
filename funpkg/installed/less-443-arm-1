@@ -1,0 +1,23 @@
+# Package name: less-443-arm-1
+# Package file: arm/packages/less-443-arm-1.txz
+# Compressed size: 77 KiB
+# Uncompressed size: 161 KiB
+# Description:
+#   less - opposite of more
+#   
+#   Less is a free, open-source file pager. It can be found on most
+#   versions of Linux, Unix and Mac OS, as well as on many other operating
+#   systems.
+#   
+#   Homepage: http://www.greenwoodsoftware.com/less/
+ffp/
+ffp/bin/
+ffp/bin/less
+ffp/bin/lessecho
+ffp/bin/lesskey
+ffp/share/
+ffp/share/man/
+ffp/share/man/man1/
+ffp/share/man/man1/less.1.gz
+ffp/share/man/man1/lessecho.1.gz
+ffp/share/man/man1/lesskey.1.gz

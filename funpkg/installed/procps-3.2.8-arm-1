@@ -1,0 +1,75 @@
+# Package name: procps-3.2.8-arm-1
+# Package file: arm/packages/procps-3.2.8-arm-1.txz
+# Compressed size: 193 KiB
+# Uncompressed size: 477 KiB
+# Description:
+#   procps - /proc file system utilities
+#   
+#   The utilities in the procps package show information about running processes.
+#   This package includes the procps, psmisc, and procinfo source packages.   
+#   
+#   procps Homepage: http://procps.sourceforge.net/
+#   psmisc Homepage: http://sourceforge.net/projects/psmisc/
+#   
+ffp/
+ffp/bin/
+ffp/bin/free
+ffp/bin/fuser
+ffp/bin/kill
+ffp/bin/killall
+ffp/bin/lsdev
+ffp/bin/peekfd
+ffp/bin/pgrep
+ffp/bin/pidof
+ffp/bin/pkill
+ffp/bin/pmap
+ffp/bin/procinfo
+ffp/bin/prtstat
+ffp/bin/ps
+ffp/bin/pstree
+ffp/bin/pwdx
+ffp/bin/skill
+ffp/bin/slabtop
+ffp/bin/snice
+ffp/bin/socklist
+ffp/bin/tload
+ffp/bin/top
+ffp/bin/uptime
+ffp/bin/vmstat
+ffp/bin/w
+ffp/bin/watch
+ffp/lib/
+ffp/lib/libproc-3.2.8.so
+ffp/sbin/
+ffp/sbin/sysctl
+ffp/share/
+ffp/share/man/
+ffp/share/man/man1/
+ffp/share/man/man1/free.1.gz
+ffp/share/man/man1/fuser.1.gz
+ffp/share/man/man1/kill.1.gz
+ffp/share/man/man1/killall.1.gz
+ffp/share/man/man1/peekfd.1.gz
+ffp/share/man/man1/pgrep.1.gz
+ffp/share/man/man1/pkill.1.gz
+ffp/share/man/man1/pmap.1.gz
+ffp/share/man/man1/prtstat.1.gz
+ffp/share/man/man1/ps.1.gz
+ffp/share/man/man1/pstree.1.gz
+ffp/share/man/man1/pwdx.1.gz
+ffp/share/man/man1/skill.1.gz
+ffp/share/man/man1/slabtop.1.gz
+ffp/share/man/man1/snice.1.gz
+ffp/share/man/man1/tload.1.gz
+ffp/share/man/man1/top.1.gz
+ffp/share/man/man1/uptime.1.gz
+ffp/share/man/man1/w.1.gz
+ffp/share/man/man1/watch.1.gz
+ffp/share/man/man5/
+ffp/share/man/man5/sysctl.conf.5.gz
+ffp/share/man/man8/
+ffp/share/man/man8/lsdev.8.gz
+ffp/share/man/man8/procinfo.8.gz
+ffp/share/man/man8/socklist.8.gz
+ffp/share/man/man8/sysctl.8.gz
+ffp/share/man/man8/vmstat.8.gz
